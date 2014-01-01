@@ -1,7 +1,7 @@
 {
   "name": "code-connect-server",
   "preferGlobal": true,
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "John Wu <webmaster@leapoahead.com>",
   "description": "server end for code connect (an extension for brackets)",
   "contributors": [ 
@@ -36,6 +36,12 @@
     "node": ">=0.6"
   },
   "bin": {
-      "code-connect-server": "./lib/main"
-  }
+      "code-connect-server": "./lib/main.js"
+  },
+  "scripts": {
+    "start": "node ./lib/main.js",
+    "test": "vows --spec --isolate",
+    "predeploy": "echo This will be run before deploying the app",
+    "postdeploy": "echo This will be run after deploying the app"
+  },
 }
