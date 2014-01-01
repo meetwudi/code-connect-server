@@ -1,5 +1,4 @@
-/*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4, maxerr: 50, node: true*/
-/*global require, describe, it, before, after, beforeEach, afterEach*/
+/*global describe, it, after, before, afterEach, beforeEach*/
 "use strict";
 
 var io = require('socket.io-client'),
