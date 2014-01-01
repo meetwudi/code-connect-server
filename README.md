@@ -22,6 +22,10 @@ You can run test by running:
 $ npm test
 ```
 
+#Troubleshooting
+If any errors encountered, please check first whether you are using the latest version of brackets-code-connect and the code-connect-server.  
+You may have interest to hack into the source code, find the problem and fix it. Don't forget to send us your great pull request.  
+You are welcomed to write an issue for the problem you encountered. We will check it as soon as possible and give you response, help you fix it.  
 
 #Contributing
 Every pull request will be highly appreciated.  
