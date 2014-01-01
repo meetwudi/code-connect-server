@@ -40,8 +40,6 @@
   },
   "scripts": {
     "start": "node ./lib/main.js",
-    "test": "vows --spec --isolate",
-    "predeploy": "echo This will be run before deploying the app",
-    "postdeploy": "echo This will be run after deploying the app"
+    "test": "mocha"
   }
 }
