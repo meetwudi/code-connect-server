@@ -62,7 +62,8 @@
     "predef"        : [
     ],
     "indent"        : 4,
-    "globals"       : [
-        "require"
-    ]
+    "globals"       : {
+      "process" : true,
+      "require" : true
+    }
 }
