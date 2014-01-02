@@ -27,7 +27,8 @@
   "dependencies" : {
     "socket.io"         :   "*",
     "express"           :   "3.x",
-    "underscore"        :   "*"
+    "underscore"        :   "*",
+    "commander"         :   "*"
   },
   "devDependencies": {
     "mocha"             :   "*", 

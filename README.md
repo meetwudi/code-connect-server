@@ -1,5 +1,6 @@
 #code-connect-server
 This project is the server-end for [brackets-code-connect](https://github.com/tjwudi/brackets-code-connect) (an extension for [adobe/brackets](https://github.com/adobe/brackets)).  
+Built with love and javascript. :)  
 
 #Installation
 You can install by running:
@@ -13,7 +14,9 @@ You can start the server by running:
 ```
 $ code-connect-server
 ```
-Server will start and create a websocket listening on local port 6006.
+Server will start and create a websocket listening on local port 6006.  
+Run `$code-connect-server --help` for more commandline options.
+
 
 #Testing
 Before running tests, you should start the server first.  
