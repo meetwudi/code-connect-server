@@ -4,8 +4,8 @@
 var app = require('express')(),
     program = require('commander'),
     server = require('http').createServer(app),
-    io = require('./sockets-manager.js').initSocketsManager(server),
-    ChannelsManager = require('./channels-manager.js').ChannelsManager,
+    io = require('../lib/sockets-manager.js').initSocketsManager(server),
+    ChannelsManager = require('../lib/channels-manager.js').ChannelsManager,
     channelsManager = new ChannelsManager(),
     port = require('../config.json').defaultPort; // default port
 
