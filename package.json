@@ -1,7 +1,7 @@
 {
   "name": "code-connect-server",
   "preferGlobal": true,
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "John Wu <webmaster@leapoahead.com>",
   "description": "server end for code connect (an extension for brackets)",
   "contributors": [ 
