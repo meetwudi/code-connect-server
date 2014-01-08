@@ -22,7 +22,11 @@
   "keywords": [
     "brackets",
     "code-connect",
-    "connect"
+    "connect",
+    "realtime",
+    "socket.io",
+    "extension",
+    "brackets-extension"
   ],
   "dependencies" : {
     "socket.io"         :   "*",
