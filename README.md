@@ -14,7 +14,7 @@ You can start the server by running:
 ```
 $ code-connect-server
 ```
-Server will start and create a websocket listening on local port 6006.  
+Server will start and create a websocket listening on local port 6006. `--port` command line parameters can custom port number.
 Run `$code-connect-server --help` for more commandline options.
 
 
